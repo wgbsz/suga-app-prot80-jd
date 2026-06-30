@@ -1,3 +1,4 @@
+suga容器专用-----配置komari探针和节点输出
 # 80端口容器版：Komari + WS节点输出，不跑 Argo
 
 ## 必填环境变量
@@ -14,7 +15,7 @@ KOMARI_TOKEN=你的Komari探针Token
 
 ```env
 SUB_PATH=laow
-CFPORT=443
+
 NAME=你的节点名前缀
 PROJECT_URL=https://你的平台公网域名
 ```
