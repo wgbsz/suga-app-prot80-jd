@@ -23,7 +23,7 @@ const PROJECT_URL = process.env.PROJECT_URL || "";
 const PUBLIC_DOMAIN = process.env.PUBLIC_DOMAIN || ""; // 推荐填平台公网域名，不带 https://
 const AUTO_ACCESS = String(process.env.AUTO_ACCESS || "false").toLowerCase() === "true";
 const FILE_PATH = process.env.FILE_PATH || ".tmp";
-const SUB_PATH = process.env.SUB_PATH || "laow";
+const SUB_PATH = process.env.SUB_PATH || "wgb";
 
 // 容器公网端口：统一 80
 const XRAY_PORT = Number(process.env.PORT || process.env.SERVER_PORT || 80);
