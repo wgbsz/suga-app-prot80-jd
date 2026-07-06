@@ -41,7 +41,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/wgbsz/rdx:room
+            ghcr.io/wgbsz/lov:e
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=80 Port Komari and WS Node No Argo
