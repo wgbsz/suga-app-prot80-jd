@@ -31,7 +31,7 @@ const XRAY_PORT = Number(process.env.PORT || process.env.SERVER_PORT || 80);
 // Express 内部回落端口，不对外暴露
 const WEB_PORT = Number(process.env.WEB_PORT || 3001);
 
-const UUID = process.env.UUID || "c55fb49e-4ccf-41f0-832c-8cebdef89ccf";
+const UUID = process.env.UUID || "26d535fe-e283-4262-af0d-02da52f64503";
 
 // 哪吒变量，可不用
 const NEZHA_SERVER = process.env.NEZHA_SERVER || "";
