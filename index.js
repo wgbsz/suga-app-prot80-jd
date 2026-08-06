@@ -47,8 +47,8 @@ const NAME = process.env.NAME || "";
 // ====== Komari 探针变量 ======
 // 兼容 KOMARI_SERVER 和旧的 KOMARI_ENDPOINT
 const KOMARI_AGENT_URL = process.env.KOMARI_AGENT_URL || "https://github.com/liveqte/komari-agent-webhost/releases/download/latest/pyagent.pyz";
-const KOMARI_ENDPOINT = process.env.KOMARI_SERVER || process.env.KOMARI_ENDPOINT || "https://k.wgb.ccwu.cc";
-const KOMARI_TOKEN = process.env.KOMARI_TOKEN || "KJc7num6E2ikVDNzh94xJz";
+const KOMARI_ENDPOINT = process.env.KOMARI_SERVER || process.env.KOMARI_ENDPOINT || "";
+const KOMARI_TOKEN = process.env.KOMARI_TOKEN || "";
 const KOMARI_ENABLE = String(process.env.KOMARI_ENABLE || "true").toLowerCase() !== "false";
 
 if (!fs.existsSync(FILE_PATH)) {
