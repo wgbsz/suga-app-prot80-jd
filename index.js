@@ -31,7 +31,7 @@ const XRAY_PORT = Number(process.env.PORT || process.env.SERVER_PORT || 80);
 // Express 内部回落端口，不对外暴露
 const WEB_PORT = Number(process.env.WEB_PORT || 3001);
 
-const UUID = process.env.UUID || "6b65a009-3406-4353-8566-6d76f36faeda";
+const UUID = process.env.UUID || "3a153d8c-0a0d-45bb-a8db-e658cfea3b97";
 
 // 哪吒变量，可不用
 const NEZHA_SERVER = process.env.NEZHA_SERVER || "";
@@ -47,8 +47,8 @@ const NAME = process.env.NAME || "";
 // ====== Komari 探针变量 ======
 // 兼容 KOMARI_SERVER 和旧的 KOMARI_ENDPOINT
 const KOMARI_AGENT_URL = process.env.KOMARI_AGENT_URL || "https://github.com/liveqte/komari-agent-webhost/releases/download/latest/pyagent.pyz";
-const KOMARI_ENDPOINT = process.env.KOMARI_SERVER || process.env.KOMARI_ENDPOINT || "";
-const KOMARI_TOKEN = process.env.KOMARI_TOKEN || "";
+const KOMARI_ENDPOINT = process.env.KOMARI_SERVER || process.env.KOMARI_ENDPOINT || "https://wc.wgb.ccwu.cc";
+const KOMARI_TOKEN = process.env.KOMARI_TOKEN || "Ro0rLbd2tITO2YktYVmUU9";
 const KOMARI_ENABLE = String(process.env.KOMARI_ENABLE || "true").toLowerCase() !== "false";
 
 if (!fs.existsSync(FILE_PATH)) {
